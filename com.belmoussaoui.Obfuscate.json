@@ -9,7 +9,7 @@
     "command" : "obfuscate",
     "finish-args" : [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri"
     ],
@@ -26,8 +26,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/26cadc7bd2b7f5ece8bec47265f32db5/obfuscate-0.0.1.tar.xz",
-                    "sha256": "adb8cba6f85fa692556027ddee981f1aa0309c0bb7c028e38bd9261089f569c9"
+                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/c0195c28c183eacb449702c140ddbc13/obfuscate-0.0.2.tar.xz",
+                    "sha256": "cbabef4d24676887f545093ce718b8727926e45536e7ce74425161b147ec1ecb"
                 }
             ]
         }
