@@ -21,6 +21,24 @@
     },
     "modules" : [
         {
+            "name": "libsass",
+            "buildsystem": "meson",
+            "sources": [{
+                "type": "git",
+                "url": "https://github.com/lazka/libsass.git",
+                "branch": "meson"
+            }]
+        },
+        {
+            "name": "sassc",
+            "buildsystem": "meson",
+            "sources": [{
+                "type": "git",
+                "url": "https://github.com/lazka/sassc.git",
+                "branch": "meson"
+            }]
+        },
+        {
             "name": "gtk4",
             "buildsystem": "meson",
             "config-opts": [
@@ -53,26 +71,7 @@
                 "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
                 "branch": "main",
                 "commit": "3aa34feae01ebac9492ff46eb9c00a500934895d"
-            }],
-            "modules": [{
-                    "name": "libsass",
-                    "buildsystem": "meson",
-                    "sources": [{
-                        "type": "git",
-                        "url": "https://github.com/lazka/libsass.git",
-                        "branch": "meson"
-                    }]
-                },
-                {
-                    "name": "sassc",
-                    "buildsystem": "meson",
-                    "sources": [{
-                        "type": "git",
-                        "url": "https://github.com/lazka/sassc.git",
-                        "branch": "meson"
-                    }]
-                }
-            ]
+            }]
         },
         {
             "name" : "obfuscate",
