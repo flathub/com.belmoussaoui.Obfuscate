@@ -21,13 +21,67 @@
     },
     "modules" : [
         {
+            "name": "gtk4",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Ddemos=false",
+                "-Dbuild-examples=false",
+                "-Dbuild-tests=false"
+            ],
+            "sources": [{
+                "type": "git",
+                "url": "https://gitlab.gnome.org/GNOME/gtk.git",
+                "commit": "67952a91420bc6230eac7f68700b38595322813f",
+            }]
+        },
+        {
+            "name": "libadwaita",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dintrospection=disabled",
+                "-Dgtk_doc=false",
+                "-Dtests=false",
+                "-Dexamples=false",
+                "-Dvapi=false"
+            ],
+            "cleanup": [
+                "/include",
+                "/lib/pkgconfig"
+            ],
+            "sources": [{
+                "type": "git",
+                "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
+                "branch": "main",
+                "commit": "3aa34feae01ebac9492ff46eb9c00a500934895d"
+            }],
+            "modules": [{
+                    "name": "libsass",
+                    "buildsystem": "meson",
+                    "sources": [{
+                        "type": "git",
+                        "url": "https://github.com/lazka/libsass.git",
+                        "branch": "meson"
+                    }]
+                },
+                {
+                    "name": "sassc",
+                    "buildsystem": "meson",
+                    "sources": [{
+                        "type": "git",
+                        "url": "https://github.com/lazka/sassc.git",
+                        "branch": "meson"
+                    }]
+                }
+            ]
+        },
+        {
             "name" : "obfuscate",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/c0195c28c183eacb449702c140ddbc13/obfuscate-0.0.2.tar.xz",
-                    "sha256": "cbabef4d24676887f545093ce718b8727926e45536e7ce74425161b147ec1ecb"
+                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/53c611b1e04be993b7a0eb0e04882c78/obfuscate-0.0.3.tar.xz",
+                    "sha256": "ac1ee218d76af2f24140acff89f1bca46d2ae4ed2c1920332970f10a450a834c"
                 }
             ]
         }
