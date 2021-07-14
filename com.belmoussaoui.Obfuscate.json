@@ -31,7 +31,7 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/gtk.git",
-                "commit": "67952a91420bc6230eac7f68700b38595322813f",
+                "commit": "67952a91420bc6230eac7f68700b38595322813f"
             }]
         },
         {
