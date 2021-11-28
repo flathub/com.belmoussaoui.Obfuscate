@@ -55,8 +55,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                "tag": "1.0.0-alpha.2",
-                "commit": "f5932ab4250c8e709958c6e75a1a4941a5f0f386"
+                "tag": "1.0.0.alpha.4",
+                "commit": "6b447fde8f270001a0dc29ef59d3e9bf6d32dae9"
             }]
         },
         {
@@ -65,8 +65,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/53c611b1e04be993b7a0eb0e04882c78/obfuscate-0.0.3.tar.xz",
-                    "sha256": "ac1ee218d76af2f24140acff89f1bca46d2ae4ed2c1920332970f10a450a834c"
+                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/f16a8ac07d6baf7148f4b396ca08dc35/obfuscate-0.0.4.tar.xz",
+                    "sha256": "48bbee6b08905e1757c7852559dc25c7b239a63da5b5400c0aefc905d4496ef5"
                 }
             ]
         }
