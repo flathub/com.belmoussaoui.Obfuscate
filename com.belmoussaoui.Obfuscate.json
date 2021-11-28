@@ -14,7 +14,10 @@
         "--device=dri"
     ],
     "build-options" : {
-        "append-path": "/usr/lib/sdk/rust-stable/bin"
+        "append-path": "/usr/lib/sdk/rust-stable/bin",
+        "env": {
+            "CARGO_HOME": "/run/build/obfuscate/cargo"
+        }
     },
     "modules" : [
         {
