@@ -14,10 +14,7 @@
         "--device=dri"
     ],
     "build-options" : {
-        "append-path": "/usr/lib/sdk/rust-stable/bin",
-        "env": {
-            "CARGO_HOME": "/run/build/obfuscate/cargo"
-        }
+        "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
     "modules" : [
         {
@@ -55,8 +52,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                "tag": "1.0.0-alpha.2",
-                "commit": "f5932ab4250c8e709958c6e75a1a4941a5f0f386"
+                "tag": "1.0.0.alpha.4",
+                "commit": "6b447fde8f270001a0dc29ef59d3e9bf6d32dae9"
             }]
         },
         {
@@ -65,8 +62,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/53c611b1e04be993b7a0eb0e04882c78/obfuscate-0.0.3.tar.xz",
-                    "sha256": "ac1ee218d76af2f24140acff89f1bca46d2ae4ed2c1920332970f10a450a834c"
+                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/157742cd3878842559b016333b262e31/obfuscate-0.0.4.tar.xz",
+                    "sha256": "bb17096557f881ab00052b6321b6b9c641a980f82d8e3c33b7f4d5623d2ca340"
                 }
             ]
         }
