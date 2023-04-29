@@ -26,8 +26,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/f42e783cb0df3551236ccdbd04a08928/obfuscate-0.0.8.tar.xz",
-                    "sha256": "ac682e7edb39d3f21d4ba31192c19408a0c270818e0bbba4a0ed2a9aa4fe9f9b"
+                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/7c33507242330efa98e2fc7bc9c6d7e7/obfuscate-0.0.9.tar.xz",
+                    "sha256": "c817e5c974e82365b22c6a5e918e47df58091f3a86323f682177c0ace9441cdd"
                 }
             ]
         }
