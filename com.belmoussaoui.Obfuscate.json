@@ -1,7 +1,7 @@
 {
     "id": "com.belmoussaoui.Obfuscate",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -26,8 +26,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/7c33507242330efa98e2fc7bc9c6d7e7/obfuscate-0.0.9.tar.xz",
-                    "sha256": "c817e5c974e82365b22c6a5e918e47df58091f3a86323f682177c0ace9441cdd"
+                    "url" : "https://gitlab.gnome.org/World/obfuscate/uploads/7286537df58cb49424c1b4871b915421/obfuscate-0.0.10.tar.xz",
+                    "sha256": "e439fc2e9f69a131b7c82d319e31daa4a7abf319059ec4226f686719afb785e5"
                 }
             ]
         }
